@@ -1,0 +1,14 @@
+1;OK;
+2;ERROR;This orderItemId already exist in the database!
+3;ERROR;The line has an invalid date format!
+4;OK;
+5;ERROR;The line has an invalid email address!
+6;ERROR;The line has an invalid postcode!
+7;ERROR;The line has an invalid shipping price or sale price!
+8;ERROR;The line has an invalid shipping price or sale price!
+9;ERROR;The line has an invalid status!
+10;ERROR;The line has an invalid date format!
+11;ERROR;The line doesn't have the required amount of data!
+12;OK;
+13;ERROR;The line doesn't have the required amount of data!
+14;ERROR;The line doesn't have the required amount of data!

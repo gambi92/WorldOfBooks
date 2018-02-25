@@ -1,0 +1,14 @@
+1;1;1;Gambino Daniel;gdani14@gmail.com;Pollack Mihály utca 3;7633;1500;500;ABC123456789;IN_STOCK
+2;1;1;Gambino Daniel;gdani14@gmail.com;Pollack Mihály utca 3;7633;1500;500;ABC123456789;IN_STOCK
+3;2;1;Gambino Daniel;gdani14@gmail.com;Pollack Mihály utca 3;7633;3990;300;ABCD123456789;OUT_OF_STOCK;2014.05.12
+4;2;1;Gambino Daniel;gdani14@gmail.com;Pollack Mihály utca 3;7633;3990;300;ABCD123456789;OUT_OF_STOCK;2014-05-12
+5;3;2;Nagy József;ftuztukzurjftzujltz.com;Szigeti út 142;dgfh;fdgfch;jgjgjgj;KHS34356;dsftdzftztrf;2018-02-24
+6;3;2;Nagy József;jozsef@freemail.hu;Szigeti út 142;dgfh;fdgfch;jgjgjgj;KHS34356;dsftdzftztrf;2018-02-24
+7;3;2;Nagy József;jozsef@freemail.hu;Szigeti út 142;7634;fdgfch;jgjgjgj;KHS34356;dsftdzftztrf;2018-02-24
+8;3;2;Nagy József;jozsef@freemail.hu;Szigeti út 142;7634;7550;jgjgjgj;KHS34356;dsftdzftztrf;2018-02-24
+9;3;2;Nagy József;jozsef@freemail.hu;Szigeti út 142;7634;7550;200;KHS34356;dsftdzftztrf;2018-02-24
+10;3;2;Nagy József;jozsef@freemail.hu;Szigeti út 142;7634;7550;200;KHS34356;IN_STOCK;rhdgrtzfzh
+11;3;2;Nagy József;jozsef@freemail.hu;Szigeti út 142;7634;7550;200;KHS34356;
+12;3;2;Nagy József;jozsef@freemail.hu;Szigeti út 142;7634;7550;200;KHS34356;IN_STOCK;2018-02-24
+13;
+14;;;;;;;;;;

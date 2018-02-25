@@ -5,7 +5,7 @@
 -- Dumped from database version 10.1
 -- Dumped by pg_dump version 10.1
 
--- Started on 2018-02-24 20:35:02
+-- Started on 2018-02-25 17:28:21
 
 SET statement_timeout = 0;
 SET lock_timeout = 0;
@@ -62,7 +62,7 @@ CREATE TABLE "order" (
     buyername text,
     buyeremail text,
     orderdate date,
-    ordertotalvalue numeric,
+    ordertotalvalue double precision,
     address text,
     postcode integer
 );
@@ -106,7 +106,7 @@ ALTER TABLE ONLY "order"
     ADD CONSTRAINT order_pkey PRIMARY KEY (orderid);
 
 
--- Completed on 2018-02-24 20:35:04
+-- Completed on 2018-02-25 17:28:22
 
 --
 -- PostgreSQL database dump complete

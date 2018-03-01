@@ -5,7 +5,7 @@
 -- Dumped from database version 10.1
 -- Dumped by pg_dump version 10.1
 
--- Started on 2018-02-25 17:28:21
+-- Started on 2018-03-01 23:02:36
 
 SET statement_timeout = 0;
 SET lock_timeout = 0;
@@ -36,17 +36,17 @@ COMMENT ON EXTENSION plpgsql IS 'PL/pgSQL procedural language';
 SET search_path = public, pg_catalog;
 
 --
--- TOC entry 585 (class 1247 OID 16648)
--- Name: OrderItemStatus; Type: TYPE; Schema: public; Owner: postgres
+-- TOC entry 593 (class 1247 OID 16648)
+-- Name: orderitemstatus; Type: TYPE; Schema: public; Owner: postgres
 --
 
-CREATE TYPE "OrderItemStatus" AS ENUM (
+CREATE TYPE orderitemstatus AS ENUM (
     'IN_STOCK',
     'OUT_OF_STOCK'
 );
 
 
-ALTER TYPE "OrderItemStatus" OWNER TO postgres;
+ALTER TYPE orderitemstatus OWNER TO postgres;
 
 SET default_tablespace = '';
 
@@ -82,7 +82,7 @@ CREATE TABLE order_item (
     shippingprice numeric,
     totalitemprice numeric,
     sku text,
-    status "OrderItemStatus"
+    status orderitemstatus
 );
 
 
@@ -106,7 +106,7 @@ ALTER TABLE ONLY "order"
     ADD CONSTRAINT order_pkey PRIMARY KEY (orderid);
 
 
--- Completed on 2018-02-25 17:28:22
+-- Completed on 2018-03-01 23:02:38
 
 --
 -- PostgreSQL database dump complete
